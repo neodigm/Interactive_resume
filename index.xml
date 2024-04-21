@@ -22,6 +22,15 @@
       <pubDate>Thu, 07 Dec 2023 20:26:54 -0600</pubDate>
       
       <guid>https://www.theScottKrause.com/patterns/javascript/</guid>
+      <description>JavaScript Generate Lorem Ipsum from original Latin De finibus.</description>
+    </item>
+    
+    <item>
+      <title>Simple valid JSON test</title>
+      <link>https://www.theScottKrause.com/patterns/javascript/</link>
+      <pubDate>Thu, 07 Dec 2023 20:26:54 -0600</pubDate>
+      
+      <guid>https://www.theScottKrause.com/patterns/javascript/</guid>
       <description>A simple JavaScript function that can determine if a given JSON is valid.</description>
     </item>
     

@@ -421,6 +421,50 @@ data-n55-sodapop-size="small">
                         </picture>
                         
                         <h5> Simple valid JSON test </h5>
+                        <h6 class="h-smaller"> JavaScript Generate Lorem Ipsum from original Latin De finibus. </h6>
+                        <output class="h-ds__none"> <output>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JavaScript" data-lang="JavaScript"><span style="display:flex;"><span><span style="color:#75715e">/* 🌶️ 🌴 🍰 🔥 🗝️ 🎲
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">,--.                                   ,--.                                 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">|  | ,---. ,--.--. ,---. ,--,--,--.    `--&#39; ,---.  ,---. ,--.,--.,--,--,--. 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">|  || .-. ||  .--&#39;| .-. :|        |    ,--.| .-. |(  .-&#39; |  ||  ||        | 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">|  |&#39; &#39;-&#39; &#39;|  |   \   --.|  |  |  |    |  || &#39;-&#39; &#39;.-&#39;  `)&#39;  &#39;&#39;  &#39;|  |  |  | 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">`--&#39; `---&#39; `--&#39;    `----&#39;`--`--`--&#39;    `--&#39;|  |-&#39; `----&#39;  `----&#39; `--`--`--&#39; 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">                                           `--&#39;                             */</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">genLoremIpsum</span> <span style="color:#f92672">=</span> ( <span style="color:#a6e22e">Sentences</span><span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> )=&gt;{  <span style="color:#75715e">//  Generate Lorem Ipsum | Orig Latin De finibus
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span>( <span style="color:#a6e22e">Sentences</span> <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> ) <span style="color:#a6e22e">Sentences</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">floor</span>(Math.<span style="color:#a6e22e">random</span>() <span style="color:#f92672">*</span> <span style="color:#ae81ff">5</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>  <span style="color:#75715e">//  If -1 gen rnd num sentences 1-5
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">aLI</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;lorem ipsum a ab accusamus accusantium ad adipiscing alias aliquam aliquid amet animi aperiam architecto asperiores aspernatur assumenda at atque aut autem beatae blanditiis commodi consectetur consequatur consequuntur corporis corrupti culpa cum cumque cupiditate debitis delectus deleniti deserunt dicta dignissimos distinctio do dolor dolore dolorem doloremque dolores doloribus dolorem dquis ducimus ea eaque earum eius eligendi enim eos error ert esse est et eum eveniet ex excepturi exercitationem expedita explicabo facere facilis fuga fugiat fugit harum hic id illo illum impedit in incididunt inventore ipsa ipsam irure iste itaque iusto labore laboriosam laborum laudantium libero magnam magni maiores maxime minima minus modi molestiae molestias mollitia nam natus necessitatibus nemo neque nesciunt nihil nisi nobis non nostrumd nulla numquam obcaecati odio odit officia officiis omnis optio pariatur perferendis perspiciatis placeat porro possimus praesentium provident quae quaerat quam quas quasi qui quia quibusdam quidem quis quisquam quo quod quos ratione recusandae reiciendis rem repellat repellendaus reprehenderit repudiandae rerudum rerum saepe sapiente sed sequi similique sint sit soluta sunt suscipit tempora tempore temporibus tenetur totam ullam unde ut vel velit veniam veritatis vero vitae voluptas voluptate voluptatem voluptates voluptatibus voluptatum&#34;</span>.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">sOut</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span>( <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">nS</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">nS</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">Sentences</span>; <span style="color:#a6e22e">nS</span><span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">nWc</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">floor</span>(Math.<span style="color:#a6e22e">random</span>() <span style="color:#f92672">*</span> <span style="color:#ae81ff">6</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span>  <span style="color:#75715e">//  Word count per sentence rnd 3-8
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">for</span>( <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">nW</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">nW</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">nWc</span>; <span style="color:#a6e22e">nW</span><span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">sWrd</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">aLI</span>[ Math.<span style="color:#a6e22e">floor</span>(Math.<span style="color:#a6e22e">random</span>() <span style="color:#f92672">*</span> <span style="color:#a6e22e">aLI</span>.<span style="color:#a6e22e">length</span>) ]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>( <span style="color:#f92672">!</span><span style="color:#a6e22e">nW</span> ) <span style="color:#a6e22e">sWrd</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">sWrd</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">toUpperCase</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">sWrd</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">1</span>)  <span style="color:#75715e">//  Cap first
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span>( <span style="color:#a6e22e">sOut</span>.<span style="color:#a6e22e">indexOf</span>( <span style="color:#a6e22e">sWrd</span> ) <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> ) <span style="color:#a6e22e">sOut</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">sWrd</span>  <span style="color:#75715e">//  Dedupe
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sOut</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;.&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sOut</span>.<span style="color:#a6e22e">trim</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// USAGE: console.log( genLoremIpsum( -1 ) )
+</span></span></span></code></pre></div>
+    <span class="h-ds__none"
+    data-at="Generate Lorem|Random Sentences|Mock Text"></span>
+</output> </output>
+                        <p>2023-12-07</p>
+                    </section>
+                </div>
+                
+            
+                
+                <div class="l-blog-crd caro-target__js">
+                    <section>
+                        <picture>
+                            
+                            <img src="/patterns/javascript_tn.webp" alt="Simple valid JSON test">
+                        </picture>
+                        
+                        <h5> Simple valid JSON test </h5>
                         <h6 class="h-smaller"> A simple JavaScript function that can determine if a given JSON is valid. </h6>
                         <output class="h-ds__none"> <output>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JavaScript" data-lang="JavaScript"><span style="display:flex;"><span><span style="color:#75715e">/* 🏖️ 🌶️ 🔥 🧲 
@@ -2418,6 +2462,8 @@ data-at="TS Config Class|Chrome Extention TS|TypeScript Config Class|In Browser 
                             </span>
                         </a>
                     </div>
+                
+            
                 
             
                 
