@@ -530,11 +530,5 @@
 {"name": "JSX", "target":[9,11,12], "value": 44, "stackdebt": "10",
 "year": "2021", "level": 6,"desk": ""},
 {"name": "Pinia", "target":[9,11,12], "value": 44, "stackdebt": "10",
-"year": "2021", "level": 6,"desk": ""},
-{"name": "SolidJS", "target":[6,8,9,11,12], "value": 44, "stackdebt": "0",
-"year": "2023", "level": 6,"desk": ""},
-{"name": "Lit", "target":[6,8,9,11,12], "value": 33, "stackdebt": "0",
-"year": "2024", "level": 6,"desk": ""},
-{"name": "Shadcn UI", "target":[12,13,14], "value": 77, "stackdebt": "0",
-"year": "2022", "level": 6,"desk": ""}
+"year": "2021", "level": 6,"desk": ""}
 ]

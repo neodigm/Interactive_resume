@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>Simple valid JSON test</title>
-      <link>https://www.theScottKrause.com/patterns/javascript/</link>
-      <pubDate>Thu, 07 Dec 2023 20:26:54 -0600</pubDate>
-      
-      <guid>https://www.theScottKrause.com/patterns/javascript/</guid>
-      <description>A simple JavaScript function that can determine if a given JSON is valid.</description>
-    </item>
-    
-    <item>
       <title>HTML Form Validation Patterns</title>
       <link>https://www.theScottKrause.com/emerging_tech/html-form-validation-patterns/</link>
       <pubDate>Wed, 18 Oct 2023 16:14:24 -0500</pubDate>
@@ -41,15 +32,6 @@
       
       <guid>https://www.theScottKrause.com/patterns/javascript/</guid>
       <description>Observe and listen for changes in the Flickity carousel</description>
-    </item>
-    
-    <item>
-      <title>Generate Lorem Ipsum Text</title>
-      <link>https://www.theScottKrause.com/patterns/javascript/</link>
-      <pubDate>Sat, 07 Oct 2023 18:26:54 -0600</pubDate>
-      
-      <guid>https://www.theScottKrause.com/patterns/javascript/</guid>
-      <description>JavaScript Generate Lorem Ipsum from original Latin De finibus.</description>
     </item>
     
     <item>
@@ -293,6 +275,15 @@
       
       <guid>https://www.theScottKrause.com/emerging_tech/ironclad_clandestine_dead_drop/</guid>
       <description>The Ironclad Clandestine Dead Drop</description>
+    </item>
+    
+    <item>
+      <title>Calculate Aspect Ratio of Viewport</title>
+      <link>https://www.theScottKrause.com/patterns/javascript/</link>
+      <pubDate>Fri, 16 Apr 2021 16:33:13 -0600</pubDate>
+      
+      <guid>https://www.theScottKrause.com/patterns/javascript/</guid>
+      <description>Calculate Aspect Ratio of Viewport</description>
     </item>
     
     <item>
