@@ -1196,9 +1196,7 @@
 {"name":"Vue 3 Template Explorer","comment":"","tags":["vue","1st"],"uri":"https://template-explorer.vuejs.org/","cat":"tech"},
 {"name":"Vant UI","comment":"Vue UI library for mobile web apps","tags":["vue","1st"],"uri":"https://vant-ui.github.io/vant/#/en-US","cat":"tech"},
 
-{"name":"Lit Web Components Lit alistapart.com","comment":"Lit Web Components Lit alistapart.com","tags":["webcomponents","custom elements"],"uri":"https://alistapart.com/?s=Lit","cat":"tech"},
 {"name":"Lit Web Components Lit bestofjs.org","comment":"Lit Web Components Lit bestofjs.org","tags":["webcomponents","custom elements"],"uri":"https://bestofjs.org/projects?query=Lit","cat":"tech"},
-{"name":"Lit Web Components Lit blog.feedspot.com","comment":"Lit Web Components Lit blog.feedspot.com","tags":["webcomponents","custom elements"],"uri":"https://blog.feedspot.com/Lit_blogs/","cat":"tech"},
 {"name":"Lit Web Components Lit blog.google","comment":"Lit Web Components Lit blog.google","tags":["webcomponents","custom elements"],"uri":"https://blog.google/search/?query=Lit","cat":"tech"},
 {"name":"Lit Web Components Lit chrome.google.com","comment":"Lit Web Components Lit chrome.google.com","tags":["webcomponents","custom elements"],"uri":"https://chrome.google.com/webstore/search/Lit?hl=en-US","cat":"tech"},
 {"name":"Lit Web Components Lit dev.to","comment":"Lit Web Components Lit dev.to","tags":["webcomponents","custom elements"],"uri":"https://dev.to/search?q=Lit","cat":"tech"},
