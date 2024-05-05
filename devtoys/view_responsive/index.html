@@ -301,7 +301,7 @@ data-n55-marquee-size="medium">
             }
 
             let oSrch = (new URL(document.location)).searchParams
-                let sURI = oSrch.get('uri');
+            let sURI = oSrch.get('uri');
             let eIfrm = document.querySelector(".l-iframe");
             oSrch = oTmpSearch
             if( eIfrm && oSrch ){ // Simulate Responsive Layout from Search params
@@ -329,8 +329,9 @@ data-n55-marquee-size="medium">
                         
                         eIfrm.style.height = ( getDim( sVPrt )[1] );
                         eIfrm.style.width = ( getDim( sVPrt )[2] );
-                    } 
-                    eIfrm.src = sURI;
+                    }
+                    const sCloudflareURI = "https://one-does-what-one-must-1d9c.neo5ive.workers.dev/-----"
+                    eIfrm.src = sCloudflareURI + sURI;
                     if( eFB ) eFB.innerHTML = sMsg;
                     //if( neodigmToast ) neodigmToast.q( sMsg );
                 }                   
