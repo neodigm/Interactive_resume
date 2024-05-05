@@ -326,7 +326,8 @@ const oLinks = {links:[
 "https://www.linkedin.com/search/results/groups/?keywords=##token##",
 "https://www.producthunt.com/search?q=##token##",
 "https://www.reddit.com/r/##token##/new/",
-"https://www.youtube.com/results?search_query=##token##"] }
+"https://www.youtube.com/results?search_query=##token##",
+"https://www.indeed.com/q-##token_dash##-web-jobs.html"]
 
         const sInpNames = document.querySelector("#js-in__names--id").value
         const sInpCategory = document.querySelector("#js-in__category--id").value
@@ -344,6 +345,7 @@ const oLinks = {links:[
                             let sDomain = new URL( sURI ).hostname
                             let oDT = {"name": sInpTitle + " " + sName.trim() + " " + sDomain, "comment": sInpTitle + " " + sName.trim() + " " + sDomain, "tags": sInpTags.replaceAll(" ", "").split(","), "uri": "", "cat": sInpCategory}
                             oDT.uri = sURI.replaceAll( "##token##", sName.trim() )
+                            oDT.uri = sURI.replaceAll( "##token_dash##", sName.trim().replaceAll(" ", "-") )
                             aOut.push( oDT )
                         })
                     });
