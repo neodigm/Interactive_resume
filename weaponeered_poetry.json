@@ -762,7 +762,7 @@
 {"name":"PWA Builder","comment":"","uri":"https://github.com/pwa-builder","cat":"tech","tags":["pwa","native"]},
 {"name":"PWA on Product Hunt","comment":"Hunt for new PWA stuff","uri":"https://www.producthunt.com/search?q=pwa","cat":"ecosystem","tags":["pwa","hunt"]},
 {"name":"Terminal Font","comment":"Retro Terminal Emulator Font","uri":"https://fonts.google.com/specimen/VT323#standard-styles","cat":"creative","tags":["creative","font","vt100"]},
-{"name":"Terminal Emulator Emulator","comment":"Retro Terminal experience in browser","uri":"https://codesandbox.io/s/crt-terminal-in-css-js-tlijm?from-embed=&file=/style/style.css:2476-2506","cat":"creative","tags":["creative","css","vt100","motif"]},
+{"name":"Terminal Emulator Emulator","comment":"Retro Terminal experience in browser","uri":"https://codesandbox.io/p/sandbox/crt-terminal-in-css-js-tlijm?file=%2Fstyle%2Fstyle.css&from-embed=","cat":"creative","tags":["creative","css","vt100","motif"]},
 
 {"name":"Tweakpane dev tool","comment":"Compact pane library for fine-tuning parameters and monitoring value changes.","uri":"https://cocopon.github.io/tweakpane/","cat":"tech","tags":["js","ux","tool","api"]},
 {"name":"React animation","comment":"react animation primitives","uri":"https://github.com/pmndrs/react-spring","cat":"tech","tags":["js","react","creative",""]},
