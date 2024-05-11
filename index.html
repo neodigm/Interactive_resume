@@ -336,7 +336,7 @@ data-caro-target="3">
             data-n55-enchanted-cta-dont-touch="true" data-n55-theme="ghost">
                 <span>
                     <neodigm-marquee data-n55-marquee-text="  Hey, stop hiring software engineers that quit after 3 months!  Grok the opportunity cost of tech debt and the loss of institutional memory.  Incubate an agile digital culture.  If your website sucks, do you exist?  Visually Curate Wisdom.  Seize the Microsecond ™.  "
-                    data-n55-marquee-size="small"
+                    data-n55-marquee-size="xsmall"
                     data-n55-sodapop-id="js-contactPop__id"
                     data-n55-marquee-direction="false"><pre data-n55-theme="ghost"></pre></neodigm-marquee>
                 </span>
@@ -2475,8 +2475,12 @@ NeodigmClaire.showCanv('neodigm-sodapop', .6).setTheme( ['brand','marcom','warni
                             neodigmEnchantedCTA.init()
                             neodigmCarousel.init()
                 });
-                neodigmSodaPop.setOnAfterOpen( function(){  setTimeout( ()=>{ NeodigmClaire.init().doConfetti( "main" ) }, 1000 ) }, "js-contactPop__id");
-                neodigmSodaPop.setOnAfterOpen( function(){  setTimeout( ()=>{ NeodigmClaire.init().doConfetti( "main" ) }, 1600 ) }, "js-pup-n55-pwa");
+                neodigmSodaPop.setOnAfterOpen( function(){  setTimeout( ()=>{
+                    if( neodigmSodaPop.isOpen() ) NeodigmClaire.init().doConfetti( "main" ) }, 1000 )
+                }, "js-contactPop__id");
+                neodigmSodaPop.setOnAfterOpen( function(){  setTimeout( ()=>{
+                    if( neodigmSodaPop.isOpen() ) NeodigmClaire.init().doConfetti( "main" ) }, 1600 )
+                }, "js-pup-n55-pwa");
                 neodigmSodaPop.setOnBeforeUserExit( function(){
                     neodigmToast.q("Got Questions?|Start a Conversation!", "brand")
                     if( neodigmSodaPop && (  neodigmSodaPop.isOpen() )) olark('api.box.expand')

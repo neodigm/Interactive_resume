@@ -424,7 +424,7 @@ section.pfmf-grid > div > article.pfmf-crd--black {
     letter-spacing: -.008em;
 }
 .megamenu .megamenu__grd--card .mm__link--card {
-    height: 50vw;
+    height: 40vw;
     color: #fff;
 
     display: block;
@@ -491,7 +491,7 @@ section.pfmf-grid > div > article.pfmf-crd--black {
         grid-template-columns: repeat(3, minmax(33vw, 1fr));
     }
     .megamenu .megamenu__grd--card .mm__link--card {
-        height: 33vw;
+        height: 24w;
     }
 }
 @media only screen and (min-width:62.1em){/* lg */
@@ -502,7 +502,7 @@ section.pfmf-grid > div > article.pfmf-crd--black {
         grid-template-columns: repeat(7, minmax(14vw, 1fr));
     }
     .megamenu .megamenu__grd--card .mm__link--card {
-        height: 16vw;
+        height: 12vw;
     }
 }
 /* megamenu end */
