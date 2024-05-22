@@ -1206,5 +1206,6 @@
 {"name":"Lit Web Components Lit www.producthunt.com","comment":"Lit Web Components Lit www.producthunt.com","tags":["webcomponents","custom elements","lit"],"uri":"https://www.producthunt.com/search?q=Lit","cat":"tech"},
 {"name":"Lit Web Components Lit www.reddit.com","comment":"Lit Web Components Lit www.reddit.com","tags":["webcomponents","custom elements","lit"],"uri":"https://www.reddit.com/r/Lit/new/","cat":"tech"},
 {"name":"Lit Web Components Lit www.youtube.com","comment":"Lit Web Components Lit www.youtube.com","tags":["webcomponents","custom elements","lit"],"uri":"https://www.youtube.com/results?search_query=Lit","cat":"tech"},
+{"name":"Salesforce Lightning Out Web Components","comment":"Lit Web Components Adobe’s design system","tags":["webcomponents","custom elements","lit","spectrum"],"uri":"https://developer.salesforce.com/docs/platform/lwc/guide/lightning-out.html","cat":"tech"},
 {"name":"Adobe Spectrum Lit Web Components","comment":"Lit Web Components Adobe’s design system","tags":["webcomponents","custom elements","lit","spectrum"],"uri":"https://opensource.adobe.com/spectrum-web-components/","cat":"tech"}
 ]
