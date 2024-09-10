@@ -530,5 +530,7 @@
 {"name": "JSX", "target":[9,11,12], "value": 44, "stackdebt": "10",
 "year": "2021", "level": 6,"desk": ""},
 {"name": "Pinia", "target":[9,11,12], "value": 44, "stackdebt": "10",
-"year": "2021", "level": 6,"desk": ""}
+"year": "2021", "level": 6,"desk": ""},
+{"name": "JMESPath", "target":[4,5], "value": 65, "stackdebt": "0",
+"year": "2023", "level": 6,"desk": ""}
 ]
